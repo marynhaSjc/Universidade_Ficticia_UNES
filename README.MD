@@ -1,5 +1,5 @@
 # Como executar a Minha Aplicação em um Ambiente Virtual
-## Autor: Mary Ellen Rodrigues
+## Autora: Mary Ellen Rodrigues
 
 Descrição das pastas:
 
