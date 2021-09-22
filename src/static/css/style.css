@@ -1,0 +1,100 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%; 
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+#body-home{
+    background-image: url("../img/fundo.png");
+}
+
+#body-others{
+    background-image: url("../img/fundo2.png");
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+nav, ul {
+    list-style: none;    
+}
+
+a {
+    /*text-decoration: none;*/
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#f00;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 90px;
+}
+
+header li {
+    cursor: pointer;
+}
+
+header li:last-child {
+    margin-right: 0px;
+}
+
+header nav {
+    display: flex;  
+}
+/*Tentando Responsividade no header*/
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        margin-bottom: 15px;
+    }
+}
+
+/*MAIN*/
+#img-capa {
+    padding-top: 103px;
+    text-align: center;
+}
+
+.texto {
+    padding: 40px 310px;
+}
+
+/*MAIN: QUEM SOMOS*/
+.texto-QS {
+    padding: 40px 310px;
+    padding-top: 103px;
+}
+
+ol {
+    padding: 0 0 0 50px;
+}
+
+/*MAIN: CONTATO*/
+.texto-contato {
+    padding: 40px 310px;
+    padding-top: 103px;
+}
+
+/*FOOTER*/
+footer {
+    padding: 20px;
+    text-align: center;
+}
