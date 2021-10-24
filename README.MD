@@ -20,7 +20,7 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 ```console
 	activate.bat
 ```
-5. Instalar as dependências com:  
+5. Retornar a raíz da pasta criada e instalar as dependências com:  
 ```console
 	pip install -r requirements.txt
 ```
